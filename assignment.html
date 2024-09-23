@@ -1,0 +1,87 @@
+<!--Note:The template file will be copied to a new file. When you change the code of the template file you can create new file with this base code. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+
+<h1>Form for a catering school</h1>
+  <form action="submit_page.php" method="post">
+<!-- camelcase -->
+ <label for="full_name">firstname:</label>
+<input type="text" id="full_name" name="firstname" placeholder="first Name"> 
+<br>
+<label for="last_name">last-ame:</label>
+<input type="text" id="last_name" name="lastname" placeholder="last Name">
+<br>
+<label for="email">Email </label>
+<input type="text" id="email" name="email" placeholder="email">
+<br>
+
+<!-- checkbox -->
+ 
+<label>Program</label>
+<br>
+
+ <label>
+  <input type="checkbox" name="interest" value="pastries ">
+Pastry 
+ </label>
+<br>
+<label>
+  <input type="checkbox" name="continental " value="continental ">
+  Continental 
+</label>
+ <br>
+ <label>
+  <input type="checkbox" name="africa-dish" value="africa-dish">
+  Africa-dish 
+</label>
+ <br>
+ 
+<!-- radio button -->
+<label>Select your gender </label>
+<br>
+
+
+<label>
+  <input type="radio" name="gender" value="male">
+  male
+</label>
+ <br>
+ <input type="radio" name="gender" value="female">
+ female
+</label>
+<br>
+<label>Do you need mentorship </label>
+<br>
+<label><input type="radio" name="yes" value="yes">Yes</label>
+<br>
+<label><input type="radio" name="no value="yes">No</label>
+<br>
+
+
+<!-- dropdown menu-->
+<label for="country">select your country</label>
+<select name="country" id="country">
+<option value="">select country</option>
+<option value="usa">United state of america</option>
+<option value="uk">United kingdom </option>
+<option value="ug">Nigeria</option>
+<option value="sa">south-Africa </option>
+</select>
+<br>
+<button type="submit">click to submit</button>
+
+
+
+
+
+  </form>
+
+
+</body>
+</html>
